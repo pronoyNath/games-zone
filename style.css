@@ -73,10 +73,13 @@ ul li {
 .banner {
     padding: 80px 200px;
     display: flex;
-    /* gap: 100px; */
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    gap: 110px;
+    margin: 0px;
 }
 
 .banner-title1 {
@@ -139,7 +142,7 @@ ul li {
 
 .banner-img img {
     height: 500px;
-    width: 100%;
+    width: 90%;
 }
 
 /* online games styles */
@@ -240,6 +243,8 @@ ul li {
     .banner {
         flex-direction: column-reverse;
         padding: 10px 20px;
+        background-size: 100% 40%;
+        background-position: bottom;
     }
 
     .banner-content {
@@ -286,6 +291,8 @@ ul li {
     .banner {
         flex-direction: column-reverse;
         padding: 10px 20px;
+        background-size: 100% 40%;
+        background-position: bottom;
     }
 
     .banner-img {
