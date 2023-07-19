@@ -19,6 +19,7 @@ body {
 
 .nav-logo {
     display: flex;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -32,6 +33,7 @@ body {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .nav ul li i {
@@ -109,6 +111,7 @@ ul li {
     font-size: 1rem;
     font-weight: 500;
     text-transform: lowercase;
+    cursor: pointer;
 }
 
 .banner-des3 {
@@ -340,6 +343,7 @@ ul li {
     font-weight: 500;
     margin: 0px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .footer-title {
@@ -374,6 +378,7 @@ ul li {
     font-weight: 500;
     margin: 0px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .rights {
@@ -412,7 +417,7 @@ ul li {
 
     .banner {
         flex-direction: column-reverse;
-        padding: 10px 20px;
+        padding: 30px 20px;
         background-size: 100% 40%;
         background-position: bottom;
         gap: 0px;
@@ -442,7 +447,10 @@ ul li {
     .img-div {
         height: 100%;
     }
-
+    .img-div:hover {
+        outline: 3px solid rgb(255, 66, 165);
+        border-radius: 18px;
+    }
     .card img {
         height: 100%;
         width: 100%;
@@ -577,7 +585,10 @@ ul li {
         height: 100%;
         width: 100%;
     }
-
+    .img-div:hover {
+        outline: 3px solid rgb(255, 66, 165);
+        border-radius: 35px;
+    }
     .card img {
         height: 100%;
         width: 100%;
