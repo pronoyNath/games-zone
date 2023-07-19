@@ -230,7 +230,7 @@ ul li {
 
 /* instantly play styles */
 .instantly {
-    padding: 0px 200px;
+    padding: 80px 200px;
     display: flex;
     gap: 100px;
 }
@@ -260,11 +260,13 @@ ul li {
 
 .instantly-img {
     max-height: 20%;
+    position: relative;  
 }
 
 .instantly-img .big-img {
-    height: 450px;
+    height: 500px;
     width: 110%;
+    
 }
 
 .small-img-div {
@@ -272,11 +274,11 @@ ul li {
 }
 
 .small-img-div img {
-    height: 250px;
-    width: 50%;
-    position: relative;
-    bottom: 190px;
-    right: 70px;
+    height: 270px;
+    width: 60%;
+    position: absolute;
+    left: -100px;
+    bottom: -50px;
 }
 
 /* game option styles */
@@ -415,6 +417,7 @@ ul li {
 
     .banner-img {
         padding: 50px 0px 90px 0px;
+        height: 100%;
         width: 100%;
     }
 
@@ -448,9 +451,9 @@ ul li {
     }
 
     .instantly {
-        padding: 0px 10px;
+        padding: 80px 0px;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
     }
 
     .instantly-content {
@@ -462,22 +465,28 @@ ul li {
     .instantly-description {
         text-align: center;
     }
+    .instantly-title{
+        font-size: 2.1rem;
+    }
 
     .instantly-img {
         padding: 0px 30px;
+        position: relative;
+        align-items: end;
     }
 
     .instantly-img .big-img {
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
+        padding-left: 50px;
     }
-
     .small-img-div img {
-        height: 50%;
-        width: 50%;
-        position: relative;
-        bottom: 150px;
-        right: 30px;
+        height: 60%;
+        width: 40%;
+        position: absolute;
+        left: -80px;
+        bottom: -50px;
+        padding-left: 90px;
     }
 
     .option {
@@ -542,6 +551,7 @@ ul li {
 
     .banner-img {
         padding: 50px 0px 90px 0px;
+        height: 100%;
         width: 100%;
     }
 
@@ -580,7 +590,7 @@ ul li {
     }
 
     .instantly {
-        padding: 0px 10px;
+        padding: 120px 10px;
         flex-direction: column;
         gap: 50px;
     }
@@ -597,19 +607,21 @@ ul li {
 
     .instantly-img {
         padding: 0px 30px;
+        position: relative;
     }
 
     .instantly-img .big-img {
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
+        padding-left: 50px;
     }
-
     .small-img-div img {
-        height: 50%;
-        width: 50%;
-        position: relative;
-        bottom: 250px;
-        right: 30px;
+        height: 60%;
+        width: 40%;
+        position: absolute;
+        left: -80px;
+        bottom: -90px;
+        padding-left: 90px;
     }
     .option {
         padding: 20px 20px;
