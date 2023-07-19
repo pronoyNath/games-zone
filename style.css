@@ -71,7 +71,7 @@ ul li {
 
 /* banner styles */
 .banner {
-    padding: 80px 200px;
+    padding: 80px 150px 80px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,6 +180,7 @@ ul li {
 .img-div {
     position: relative;
 }
+
 .overlay img {
     height: 50px;
     width: 50px;
@@ -195,6 +196,7 @@ ul li {
     max-height: 48px;
     max-width: 20%;
 }
+
 .overlay h3 {
     position: relative;
     right: 180%;
@@ -212,6 +214,43 @@ ul li {
 
 .img-div:hover .overlay {
     visibility: visible;
+}
+
+/* instantly play styles */
+.instantly {
+    padding: 50px 200px;
+    display: flex;
+    gap: 200px;
+}
+.instantly-content{
+    max-width: 30%;
+    padding-top: 60px;
+}
+.instantly-title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.instantly-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.no-dowonloads{
+    color: rgb(255, 66, 165);
+}
+.instantly-img .big-img{
+    height: 450px;
+    width: 110%;
+}
+.small-img-div img{
+    height: 250px;
+    width: 50%;
+    position: relative;
+    bottom: 190px;
+    right: 70px;
 }
 
 
@@ -253,18 +292,23 @@ ul li {
 
     .banner-img {
         padding: 50px 0px 90px 0px;
+        width: 100%;
     }
-    .online-games{
+
+    .online-games {
         padding: 20px 10px;
         text-align: center;
     }
-    .online-img-content{
+
+    .online-img-content {
         flex-direction: column;
     }
+
     .card img {
         height: 100%;
         width: 100%;
     }
+
     .overlay h3 {
         position: relative;
         right: 70%;
@@ -275,7 +319,32 @@ ul li {
         text-align: center;
         width: 200px;
     }
-
+    .instantly{
+        padding: 0px 10px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .instantly-content{
+        max-width: 100%;
+        padding-top: 0px;
+    }
+    .instantly-title,.instantly-description{
+        text-align: center;
+    }
+    .instantly-img{
+        padding: 0px 30px;
+    }
+    .instantly-img .big-img{
+        height: 100%;
+        width: 100%;
+    }
+    .small-img-div img{
+        height: 50%;
+        width: 50%;
+        position: relative;
+        bottom: 150px;
+        right: 30px;
+    }
 }
 
 
@@ -297,18 +366,23 @@ ul li {
 
     .banner-img {
         padding: 50px 0px 90px 0px;
+        width: 100%;
     }
-    .online-games{
+
+    .online-games {
         padding: 20px 10px;
         text-align: center;
     }
-    .online-img-content{
+
+    .online-img-content {
         flex-direction: column;
     }
+
     .card img {
         height: 100%;
         width: 100%;
     }
+
     .overlay h3 {
         position: relative;
         right: 20%;
@@ -319,7 +393,34 @@ ul li {
         text-align: center;
         width: 200px;
     }
-    .img-description{
+
+    .img-description {
         font-size: 2rem;
+    }
+    .instantly{
+        padding: 0px 10px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .instantly-content{
+        max-width: 100%;
+        padding-top: 0px;
+    }
+    .instantly-title,.instantly-description{
+        text-align: center;
+    }
+    .instantly-img{
+        padding: 0px 30px;
+    }
+    .instantly-img .big-img{
+        height: 100%;
+        width: 100%;
+    }
+    .small-img-div img{
+        height: 50%;
+        width: 50%;
+        position: relative;
+        bottom: 250px;
+        right: 30px;
     }
 }
