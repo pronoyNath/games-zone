@@ -193,7 +193,7 @@ ul li {
     position: absolute;
     top: 30%;
     left: 40%;
-    /* visibility: hidden; */
+    visibility: hidden;
     max-height: 48px;
     max-width: 20%;
 }
@@ -208,15 +208,18 @@ ul li {
     text-align: center;
     width: 200px;
 }
-.img-div{
+
+.img-div {
     height: 200px;
 }
+
 .img-div img:hover {
     filter: brightness(50%);
     cursor: pointer;
-    
+
 }
-.img-div:hover{
+
+.img-div:hover {
     outline: 3px solid rgb(255, 66, 165);
     border-radius: 10px;
 }
@@ -287,12 +290,8 @@ ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-/* .second-row{
-    display: flex;
-    justify-content: center;
-} */
 
 .g-btn {
     padding: 5px 10px;
@@ -306,15 +305,79 @@ ul li {
     font-size: .8rem;
     font-weight: 600;
 }
-.g-btn:hover{
+
+.g-btn:hover {
     outline: 2px solid rgb(255, 66, 165);
     color: rgb(255, 66, 165);
 }
 
+/* footer styles */
+.footer {
+    padding: 80px 200px;
+    background: #0B0223;
+    color: #ffff;
+}
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer-content .opt-list {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.opt-list li {
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 20px;
+}
 
+.footer-title {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.footer-content .icons {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.icons a {
+    margin-right: 20px;
+    color: #ffff;
+}
+
+.policy ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.policy ul li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 
 
@@ -362,6 +425,10 @@ ul li {
 
     .online-img-content {
         flex-direction: column;
+    }
+
+    .img-div {
+        height: 100%;
     }
 
     .card img {
@@ -412,21 +479,48 @@ ul li {
         bottom: 150px;
         right: 30px;
     }
-    .option{
+
+    .option {
+        padding: 20px 20px;
+    }
+
+    .g-btn {
+        font-size: .5rem;
+    }
+
+    .g-btn img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .option-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
         padding: 10px;
     }
-    /* .option-btn {
-        display:flex;
-        flex-wrap: wrap;
-    }
-    .second-row{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    } */
-    /* .xyz{
+    .footer-content .opt-list{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-    } */
+        padding: 0px;
+        margin-bottom: 20px;    
+    }
+    .footer-content .icons {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .policy ul{
+        padding: 10px 0px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 14px;
+    }
+    .policy ul li{
+        margin: 0px;
+    }
 }
 
 
@@ -458,6 +552,11 @@ ul li {
 
     .online-img-content {
         flex-direction: column;
+    }
+
+    .img-div {
+        height: 100%;
+        width: 100%;
     }
 
     .card img {
@@ -511,5 +610,36 @@ ul li {
         position: relative;
         bottom: 250px;
         right: 30px;
+    }
+    .option {
+        padding: 20px 20px;
+    }
+    .option-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
+        padding: 10px;
+    }
+    .footer-content .opt-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px;
+        margin-bottom: 20px;    
+    }
+    .footer-content .icons {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .policy ul{
+        padding: 10px 0px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 14px;
+    }
+    .policy ul li{
+        margin: 0px;
     }
 }
