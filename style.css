@@ -159,7 +159,9 @@ ul li {
     font-weight: 700;
     margin: 10px auto;
 }
-
+.funny{
+    color: rgb(255, 66, 165);
+}
 .online-description {
     color: #534C64;
     text-align: center;
@@ -388,16 +390,20 @@ ul li {
 /* mobile screen  */
 @media screen and (max-width:576px) {
     .nav {
-        padding: 5px 10px;
+        padding: 30px 10px;
     }
 
     .nav,
     .nav ul {
         flex-direction: column;
     }
-
+    .nav ul{
+        margin: 0px;
+        padding: 10px 0px;
+    }
     .nav-logo {
         margin-left: 30px;
+        margin: 0px;
     }
 
     .nav ul li {
@@ -409,6 +415,8 @@ ul li {
         padding: 10px 20px;
         background-size: 100% 40%;
         background-position: bottom;
+        gap: 0px;
+        justify-content: center;
     }
 
     .banner-content {
@@ -419,6 +427,7 @@ ul li {
         padding: 50px 0px 90px 0px;
         height: 100%;
         width: 100%;
+        margin-left: 20px;
     }
 
     .online-games {
@@ -490,7 +499,7 @@ ul li {
     }
 
     .option {
-        padding: 20px 20px;
+        padding: 50px 20px;
     }
 
     .g-btn {
