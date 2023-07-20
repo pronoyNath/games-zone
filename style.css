@@ -298,7 +298,7 @@ ul li {
 }
 
 .g-btn {
-    padding: 5px 10px;
+    padding: 5px 6px;
     border-radius: 50px;
     background: #FFF;
     display: inline-flex;
@@ -313,6 +313,10 @@ ul li {
 .g-btn:hover {
     outline: 2px solid rgb(255, 66, 165);
     color: rgb(255, 66, 165);
+}
+
+.mar{
+    margin-left: 8px;
 }
 
 /* footer styles */
@@ -417,7 +421,7 @@ ul li {
     .banner {
         flex-direction: column-reverse;
         padding: 30px 20px;
-        background-size: 100% 40%;
+        background-size: 100% 48%;
         background-position: bottom;
         gap: 0px;
         justify-content: center;
